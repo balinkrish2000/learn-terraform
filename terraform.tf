@@ -3,13 +3,15 @@
 
 terraform {
 
+/*
   cloud {
-    organization = "organization-name"
+    organization = "HCP_Terraform_Tutorial"
 
     workspaces {
       name = "learn-terraform"
     }
   }
+*/
 
   required_providers {
     aws = {
